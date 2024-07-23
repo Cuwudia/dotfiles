@@ -1,0 +1,88 @@
+{
+  "vim.leader": "<space>",
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<leader>",
+        "w"
+      ],
+      "commands": [
+        "workbench.action.files.save"
+      ]
+    },
+  ],
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "j",
+        "j"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    }
+  ],
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "variable"
+        ],
+        "settings": {
+          "foreground": "#ABB2BF",
+        }
+      },
+      {
+        "scope": [
+          "markup.fenced_code.block.markdown",
+          "markup.inline.raw.string.markdown",
+          "string"
+        ],
+        "settings": {
+          "foreground": "#6e9a64",
+          "fontStyle": ""
+        },
+      },
+      {
+        "scope": [
+          "markup.heading",
+          "markup.heading entity.name",
+          "support.type.property-name",
+          "entity.name.tag",
+          "entity.name"
+        ],
+        "settings": {
+          "foreground": "#81A1C1",
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#494c55"
+  },
+  "git.enabled": true,
+  "breadcrumbs.enabled": false,
+  "workbench.tree.enableStickyScroll": false,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "editor.minimap.enabled": false,
+  "editor.stickyScroll.enabled": false,
+  "editor.stickyScroll.scrollWithEditor": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "security.workspace.trust.emptyWindow": false,
+  "security.workspace.trust.enabled": false,
+  "workbench.colorTheme": "Ayu Mirage Bordered",
+  "editor.autoClosingBrackets": "never",
+  "editor.formatOnSave": true,
+  "editor.cursorBlinking": "smooth",
+  "workbench.sideBar.location": "right"
+}
