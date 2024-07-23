@@ -1,27 +1,4 @@
 {
-  "vim.leader": "<space>",
-  "vim.normalModeKeyBindingsNonRecursive": [
-    {
-      "before": [
-        "<leader>",
-        "w"
-      ],
-      "commands": [
-        "workbench.action.files.save"
-      ]
-    },
-  ],
-  "vim.insertModeKeyBindings": [
-    {
-      "before": [
-        "j",
-        "j"
-      ],
-      "after": [
-        "<Esc>"
-      ]
-    }
-  ],
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -71,18 +48,19 @@
   },
   "git.enabled": true,
   "breadcrumbs.enabled": false,
-  "workbench.tree.enableStickyScroll": false,
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "editor.minimap.enabled": false,
   "editor.stickyScroll.enabled": false,
   "editor.stickyScroll.scrollWithEditor": false,
+  "editor.autoClosingBrackets": "never",
+  "editor.formatOnSave": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.guides.indentation": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
   "security.workspace.trust.emptyWindow": false,
   "security.workspace.trust.enabled": false,
-  "workbench.colorTheme": "Ayu Mirage Bordered",
-  "editor.autoClosingBrackets": "never",
-  "editor.formatOnSave": true,
-  "editor.cursorBlinking": "smooth",
-  "workbench.sideBar.location": "right"
+  "workbench.colorTheme": "One Monokai",
+  "workbench.sideBar.location": "right",
+  "workbench.tree.enableStickyScroll": false,
 }
