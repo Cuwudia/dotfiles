@@ -1,3 +1,7 @@
+   "tabSwitcherMode": "disabled",
+    "copyFormatting": "none",
+    "copyOnSelect": true,
+    "actions": [
         {
             "command": "unbound",
             "keys": "ctrl+shift+w"
@@ -7,8 +11,7 @@
             "keys": "ctrl+shift+t"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "newTab"
             },
             "keys": "ctrl+n"
@@ -18,16 +21,15 @@
             "keys": "ctrl+w"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "nextTab"
             },
             "keys": "ctrl+l"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "prevTab"
             },
             "keys": "ctrl+h"
         }
+    ],
