@@ -1,5 +1,5 @@
-
-        {
+   [
+    {
             "command": {
                 "action": "closeTab"
                 },
@@ -23,3 +23,8 @@
             },
             "keys": "ctrl+h"
         }
+    ],
+
+
+
+    
