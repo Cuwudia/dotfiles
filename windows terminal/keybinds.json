@@ -1,18 +1,25 @@
-{
-    "command": {
-	"action": "nextTab"
-    },
-    "keys": "ctrl+l"
-},
-{
-    "command": {
-	"action": "newTab"
-    },
-    "keys": "ctrl+shift+n"
-},
-{
-    "command": {
-	"action": "prevTab"
-    },
-    "keys": "ctrl+h"
-}
+
+        {
+            "command": {
+                "action": "closeTab"
+                },
+                "keys": "ctrl+w"
+        },
+        {
+            "command": {
+            "action": "nextTab"
+            },
+            "keys": "ctrl+l"
+        },
+        {
+            "command": {
+            "action": "newTab"
+            },
+            "keys": "ctrl+shift+n"
+        },
+        {
+            "command": {
+            "action": "prevTab"
+            },
+            "keys": "ctrl+h"
+        }
