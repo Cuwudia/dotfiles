@@ -1,31 +1,31 @@
-        {
-            "command": {
-                "action": "copy",
-                "singleLine": false
-            },
-            "id": "User.copy.644BA8F2",
-            "keys": "ctrl+c"
-        },
-        {
-            "command": "paste",
-            "id": "User.paste",
-            "keys": "ctrl+v"
-        },
-        {
-            "command": {
-                "action": "nextTab"
-            },
-            "keys": "ctrl+l"
-        },
-        {
-            "command": {
-                "action": "newTab"
-            },
-            "keys": "ctrl+shift+n"
-        },
-        {
-            "command": {
-                "action": "prevTab"
-            },
-            "keys": "ctrl+h"
-        }
+{
+    "command": {
+	"action": "copy",
+	"singleLine": false
+    },
+    "id": "User.copy.644BA8F2",
+    "keys": "ctrl+c"
+},
+{
+    "command": "paste",
+    "id": "User.paste",
+    "keys": "ctrl+v"
+},
+{
+    "command": {
+	"action": "nextTab"
+    },
+    "keys": "ctrl+l"
+},
+{
+    "command": {
+	"action": "newTab"
+    },
+    "keys": "ctrl+shift+n"
+},
+{
+    "command": {
+	"action": "prevTab"
+    },
+    "keys": "ctrl+h"
+}
