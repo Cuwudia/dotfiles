@@ -1,30 +1,33 @@
-   [
-    {
-            "command": {
-                "action": "closeTab"
-                },
-                "keys": "ctrl+w"
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+w"
         },
         {
-            "command": {
-            "action": "nextTab"
+            "command": "unbound",
+            "keys": "ctrl+shift+t"
+        },
+        {
+            "command": 
+            {
+                "action": "newTab"
+            },
+            "keys": "ctrl+n"
+        },
+        {
+            "command": "closePane",
+            "keys": "ctrl+w"
+        },
+        {
+            "command": 
+            {
+                "action": "nextTab"
             },
             "keys": "ctrl+l"
         },
         {
-            "command": {
-            "action": "newTab"
-            },
-            "keys": "ctrl+shift+n"
-        },
-        {
-            "command": {
-            "action": "prevTab"
+            "command": 
+            {
+                "action": "prevTab"
             },
             "keys": "ctrl+h"
         }
-    ],
-
-
-
-    
