@@ -1,5 +1,3 @@
-
-    "actions": [
         {
             "command": {
                 "action": "copy",
@@ -31,13 +29,3 @@
             },
             "keys": "ctrl+h"
         }
-    ],
-    "tabSwitcherMode": "disabled",
-    "copyFormatting": "none",
-    "copyOnSelect": true,
-
-    "schemes": [
-     
-    ],
-    "themes": []
-}
