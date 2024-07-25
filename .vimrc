@@ -9,3 +9,4 @@ set ts=2 sw=2 ai et
 set t_vb=
 set ignorecase
 set noswapfile
+set ve+=onemore
