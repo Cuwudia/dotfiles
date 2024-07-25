@@ -1,51 +1,4 @@
 {
-  "editor.tokenColorCustomizations": {
-    "textMateRules": [
-      {
-        "scope": [
-          "comment"
-        ],
-        "settings": {
-          "fontStyle": ""
-        }
-      },
-      {
-        "scope": [
-          "variable"
-        ],
-        "settings": {
-          "foreground": "#ABB2BF",
-        }
-      },
-      {
-        "scope": [
-          "markup.fenced_code.block.markdown",
-          "markup.inline.raw.string.markdown",
-          "string"
-        ],
-        "settings": {
-          "foreground": "#6e9a64",
-          "fontStyle": ""
-        },
-      },
-      {
-        "scope": [
-          "markup.heading",
-          "markup.heading entity.name",
-          "support.type.property-name",
-          "entity.name.tag",
-          "entity.name"
-        ],
-        "settings": {
-          "foreground": "#81A1C1",
-          "fontStyle": ""
-        }
-      }
-    ]
-  },
-  "workbench.colorCustomizations": {
-    "editorCursor.foreground": "#494c55"
-  },
   "git.enabled": true,
   "breadcrumbs.enabled": false,
   "terminal.integrated.defaultProfile.windows": "Git Bash",
@@ -60,7 +13,7 @@
   "explorer.confirmDelete": false,
   "security.workspace.trust.emptyWindow": false,
   "security.workspace.trust.enabled": false,
-  "workbench.colorTheme": "One Monokai",
   "workbench.sideBar.location": "right",
   "workbench.tree.enableStickyScroll": false,
-}
+  "workbench.colorTheme": "Gruvbox Minor Dark Hard",
+}d
