@@ -11,10 +11,14 @@
             "keys": "ctrl+shift+t"
         },
         {
+            "command": "unbound",
+            "keys": "ctrl+shift+n"
+        },
+        {
             "command": {
                 "action": "newTab"
             },
-            "keys": "ctrl+n"
+            "keys": "ctrl+shift+n"
         },
         {
             "command": "closePane",
