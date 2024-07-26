@@ -1,4 +1,29 @@
 {
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment",
+          "punctuation.definition.comment"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": "string",
+        "settings": {
+          "foreground": "#6e9a64"
+        }
+      },
+      {
+        "scope": "entity.name.tag",
+        "settings": {
+          "foreground": "#81A1C1"
+        }
+      }
+    ]
+  },
   "git.enabled": true,
   "breadcrumbs.enabled": false,
   "terminal.integrated.defaultProfile.windows": "Git Bash",
@@ -15,5 +40,5 @@
   "security.workspace.trust.enabled": false,
   "workbench.sideBar.location": "right",
   "workbench.tree.enableStickyScroll": false,
-  "workbench.colorTheme": "Gruvbox Minor Dark Hard",
+  "workbench.colorTheme": "One Monokai"
 }
