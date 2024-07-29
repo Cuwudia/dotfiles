@@ -1,6 +1,8 @@
 {
+  "vim.foldfix": true,
   "vim.leader": "<space>",
   "vim.useCtrlKeys": false,
+  "vim.useSystemClipboard": true,
   "vim.insertModeKeyBindings": [
     {
       "before": [
@@ -10,7 +12,7 @@
       "after": [
         "<Esc>"
       ]
-    }
+    },
   ],
   "vim.normalModeKeyBindingsNonRecursive": [
     {
@@ -20,6 +22,30 @@
       ],
       "commands": [
         "workbench.action.files.save"
+      ]
+    },
+    {
+      "before": [
+        "["
+      ],
+      "commands": [
+        "editor.fold"
+      ]
+    },
+    {
+      "before": [
+        "]"
+      ],
+      "commands": [
+        "editor.unfold"
+      ]
+    },
+    {
+      "before": [
+        "a"
+      ],
+      "after": [
+        "A"
       ]
     }
   ],
@@ -35,7 +61,10 @@
         }
       },
       {
-        "scope": "string",
+        "scope": [
+          "string",
+          "meta.separator.markdown"
+        ],
         "settings": {
           "foreground": "#6e9a64"
         }
