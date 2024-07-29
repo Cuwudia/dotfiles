@@ -1,4 +1,28 @@
 {
+  "vim.leader": "<space>",
+  "vim.useCtrlKeys": false,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "j",
+        "j"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<leader>",
+        "w"
+      ],
+      "commands": [
+        "workbench.action.files.save"
+      ]
+    }
+  ],
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -17,7 +41,10 @@
         }
       },
       {
-        "scope": "entity.name.tag",
+        "scope": [
+          "entity.name.tag",
+          "markup.heading.markdown"
+        ],
         "settings": {
           "foreground": "#81A1C1"
         }
