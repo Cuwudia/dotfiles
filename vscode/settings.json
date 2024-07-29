@@ -80,6 +80,10 @@
       }
     ]
   },
+  "workbench.colorCustomizations": {
+    "scrollbar.shadow": "#282c34",
+    "editorCursor.foreground": "#616a80",
+  },
   "git.enabled": true,
   "breadcrumbs.enabled": false,
   "terminal.integrated.defaultProfile.windows": "Git Bash",
@@ -96,5 +100,6 @@
   "security.workspace.trust.enabled": false,
   "workbench.sideBar.location": "right",
   "workbench.tree.enableStickyScroll": false,
-  "workbench.colorTheme": "One Monokai"
+  "workbench.colorTheme": "One Monokai",
+  "editor.renderLineHighlight": "none"
 }
