@@ -1,54 +1,4 @@
 {
-  "vim.foldfix": true,
-  "vim.leader": "<space>",
-  "vim.useCtrlKeys": false,
-  "vim.useSystemClipboard": true,
-  "vim.insertModeKeyBindings": [
-    {
-      "before": [
-        "j",
-        "j"
-      ],
-      "after": [
-        "<Esc>"
-      ]
-    },
-  ],
-  "vim.normalModeKeyBindingsNonRecursive": [
-    {
-      "before": [
-        "<leader>",
-        "w"
-      ],
-      "commands": [
-        "workbench.action.files.save"
-      ]
-    },
-    {
-      "before": [
-        "["
-      ],
-      "commands": [
-        "editor.fold"
-      ]
-    },
-    {
-      "before": [
-        "]"
-      ],
-      "commands": [
-        "editor.unfold"
-      ]
-    },
-    {
-      "before": [
-        "a"
-      ],
-      "after": [
-        "A"
-      ]
-    }
-  ],
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -92,7 +42,7 @@
   "editor.stickyScroll.scrollWithEditor": false,
   "editor.autoClosingBrackets": "never",
   "editor.formatOnSave": true,
-  "editor.cursorBlinking": "smooth",
+  "editor.cursorBlinking": "solid",
   "editor.guides.indentation": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
