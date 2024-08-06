@@ -1,39 +1,3 @@
-{
-  "editor.tokenColorCustomizations": {
-    "textMateRules": [
-      {
-        "scope": [
-          "comment",
-          "punctuation.definition.comment"
-        ],
-        "settings": {
-          "fontStyle": ""
-        }
-      },
-      {
-        "scope": [
-          "string",
-          "meta.separator.markdown"
-        ],
-        "settings": {
-          "foreground": "#6e9a64"
-        }
-      },
-      {
-        "scope": [
-          "entity.name.tag",
-          "markup.heading.markdown"
-        ],
-        "settings": {
-          "foreground": "#81A1C1"
-        }
-      }
-    ]
-  },
-  "workbench.colorCustomizations": {
-    "scrollbar.shadow": "#282c34",
-    "editorCursor.foreground": "#616a80",
-  },
   "git.enabled": true,
   "breadcrumbs.enabled": false,
   "terminal.integrated.defaultProfile.windows": "Git Bash",
@@ -50,6 +14,5 @@
   "security.workspace.trust.enabled": false,
   "workbench.sideBar.location": "right",
   "workbench.tree.enableStickyScroll": false,
-  "workbench.colorTheme": "One Monokai",
   "editor.renderLineHighlight": "none"
 }
