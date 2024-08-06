@@ -1,18 +1,32 @@
-  "git.enabled": true,
-  "breadcrumbs.enabled": false,
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "editor.minimap.enabled": false,
-  "editor.stickyScroll.enabled": false,
-  "editor.stickyScroll.scrollWithEditor": false,
-  "editor.autoClosingBrackets": "never",
-  "editor.formatOnSave": true,
-  "editor.cursorBlinking": "solid",
-  "editor.guides.indentation": false,
-  "explorer.confirmDragAndDrop": false,
-  "explorer.confirmDelete": false,
-  "security.workspace.trust.emptyWindow": false,
-  "security.workspace.trust.enabled": false,
-  "workbench.sideBar.location": "right",
-  "workbench.tree.enableStickyScroll": false,
-  "editor.renderLineHighlight": "none"
+{
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "entity.name.tag",
+                "settings": {
+                    "foreground": "#83A598"
+                }
+            }
+        ]
+    },
+    "git.enabled": true,
+    "breadcrumbs.enabled": false,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "editor.minimap.enabled": false,
+    "editor.stickyScroll.enabled": false,
+    "editor.stickyScroll.scrollWithEditor": false,
+    "editor.autoClosingBrackets": "never",
+    "editor.formatOnSave": true,
+    "editor.cursorBlinking": "solid",
+    "editor.guides.indentation": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "security.workspace.trust.emptyWindow": false,
+    "security.workspace.trust.enabled": false,
+    "workbench.sideBar.location": "right",
+    "workbench.tree.enableStickyScroll": false,
+    "editor.renderLineHighlight": "none",
+    "editor.fontFamily": "GeistMono NF",
+    "editor.codeLensFontFamily": "GeistMono NF",
+    "workbench.colorTheme": "Gruvbox ish Dark Soft"
 }
